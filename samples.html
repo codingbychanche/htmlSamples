@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+</head>
+
+<body>
+
+<h1>Collection of examples</h1>
+
+<hr>
+
+<h2>Text formating</h2>
+
+<p>
+<b>Bold</b><br>
+<i>Italic</i>
+</P>
+
+<p>
+<u>Sub- and superscripts:</u><br>
+H<sub>2</sub>O<br>
+x<sup>2</sup>&sdot;A=y<br>
+</p>
+
+<p>
+<u>A list:</u>
+<ul>Item 1</ul>
+<ul>Item 2</ul>
+</p>
+
+<hr>
+
+<h2>Some special characters</h2>
+
+Symbols:
+<ul>A dot &sdot;</ul>
+<ul>Times &times;</ul>
+<ul>Degrees 90&ordm;</ul>
+
+Greek:
+<ul>A Greek: </sup>&alpha;</ul>
+<ul>A Greek: </sup>&Alpha;</ul>
+<ul>A Greek: </sup>&omega;</ul>
+<ul>A Greek: </sup>&Omega;</ul>
+<ul>A Greek: </sup>&delta;</ul>
+<ul>A Greek: </sup>&Delta;</ul>
+
+<hr>
+
+<h2>Tables</h2>
+
+<p>
+This shows a simple table. The title row features 
+cells with a background color. The data cells contain
+some simple sample data, without background color.
+</p>
+
+<!-- This sets the tables style globaly, hence
+     for every table in this doc.
+     
+     Settings made here will be overriden by
+     any changes made inside the table element
+     itself. The following table will demonstrate
+     this behavior by changing the background
+     color of the title cells.
+
+     It might be a good idea to place the style
+     elements inside the 'head' of each document.
+
+     I kept it here the show it together with the
+     code creating the table.
+ -->
+
+<style>
+table,th, td {
+
+background-color: #96D4D4;
+border: 1px solid black;
+
+border-collapse: collapse;
+
+padding-top: 5px;
+padding-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+
+text-align: center
+
+}
+</style>
+
+<!-- The table and it's contents -->
+
+<table>
+  <tr>
+    <td style="Background-color:yellow"> Vin</td>
+    <td style="Background-color:yellow">Vout</td>
+    <td style="Background-color:yellow">R1</td>
+    <td style="Background-color:yellow">R2</td>
+    <td style="Background-color:yellow">Vout actual</td>
+  </tr>
+  <tr>
+    <td>1.3</td>
+    <td>12323.0</td>
+    <td>100 O </td>
+    <td>200 O </td>
+    <td>3.78 V </td>
+  </tr>
+ <tr>
+    <td>1.3</td>
+    <td>1.0</td>
+    <td>100 O </td>
+    <td>200 O </td>
+    <td>3.78 V </td>
+  </tr>
+ <tr>
+    <td>123441.3</td>
+    <td>1.0</td>
+    <td>100 O </td>
+    <td>200 O </td>
+    <td>3.78 V </td>
+  </tr>
+ <tr>
+    <td>1.3</td>
+    <td>1.0</td>
+    <td>1000000 O </td>
+    <td>200 O </td>
+    <td>3.78 V </td>
+  </tr>
+</table>
+
+</body>
+
+
+
